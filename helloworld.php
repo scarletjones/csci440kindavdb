@@ -31,15 +31,15 @@ echo "<a href='logout.php'>Logout</a>";
  
 }else{
 //3.2 When the user visits the page first time, simple login form will be displayed.
-	 <!-- Latest compiled and minified CSS -->
+//	 <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 
-	<!-- Optional theme -->
+//	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
 
 	<link rel="stylesheet" href="styles.css" >
 
-	<!-- Latest compiled and minified JavaScript -->
+//	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		 
 	<form class="form-signin" method="POST">
