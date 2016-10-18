@@ -10,4 +10,3 @@ MYSQL_dsn: mysql:unix_socket=/cloudsql/phptest-146718:us-central1:kvdb1;dbname=k
 MYSQL_USER: root
 MYSQL_PASSWORD: ''
 
-php -S localhost:8080
