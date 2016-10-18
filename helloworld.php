@@ -31,17 +31,18 @@ echo "<a href='logout.php'>Logout</a>";
  
 }else{
 //3.2 When the user visits the page first time, simple login form will be displayed.
- <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	 <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
 
-<link rel="stylesheet" href="styles.css" >
+	<link rel="stylesheet" href="styles.css" >
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<form class="form-signin" method="POST">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		 
+	<form class="form-signin" method="POST">
         <h2 class="form-signin-heading">Please Login</h2>
         <div class="input-group">
 	  <span class="input-group-addon" id="basic-addon1">@</span>
@@ -52,5 +53,4 @@ echo "<a href='logout.php'>Logout</a>";
         <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
         <a class="btn btn-lg btn-primary btn-block" href="register.php">Register</a>
       </form>
-
 ?>
