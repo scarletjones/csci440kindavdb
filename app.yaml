@@ -1,0 +1,13 @@
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /.*
+  script: helloworld.php
+
+env_variables:
+MYSQL_dsn: mysql:unix_socket=/cloudsql/phptest-146718:us-central1:kvdb1;dbname=kvdb1
+MYSQL_USER: root
+MYSQL_PASSWORD: ''
+
+php -S localhost:8080
