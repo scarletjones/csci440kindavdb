@@ -6,7 +6,7 @@ handlers:
   script: helloworld.php
 
 env_variables:
-MYSQL_dsn: mysql:unix_socket=/cloudsql/phptest-146718:us-central1:kvdb1;dbname=kvdb1
+MYSQL_DSN: mysql:unix_socket=/cloudsql/phptest-146718:us-central1:kvdb1;dbname=kvdb1
 MYSQL_USER: root
 MYSQL_PASSWORD: ''
 
